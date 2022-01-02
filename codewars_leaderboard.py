@@ -50,6 +50,8 @@ def change_names(username):
         username = "Karcai Ákos"
     elif username == "bfiics":
         username = "Ficsór Bence"
+    elif username == "Rausz":
+        username = "Rausz Ádám"
     return username
 
 
@@ -59,7 +61,7 @@ def print_actual_time():
 
 
 def main():
-    usernames = ["karcagiakos", "viktoriasoos", "dienesviktor", "dalmacsernok", "keczanilles", "DevonCarswell", "bfiics"]
+    usernames = ["karcagiakos", "viktoriasoos", "dienesviktor", "dalmacsernok", "keczanilles", "DevonCarswell", "bfiics", "Rausz"]
     datas = get_datas(usernames)
     clear(0)
     print_datas(datas)
