@@ -9,6 +9,9 @@ def clear(s):
     os.system("cls||clear")
 
 
+{"username":"dienesviktor","name":"Dienes Viktor","honor":684,"clan":"Codecool","leaderboardPosition":37155,"skills":["python","javascript"],"ranks":{"overall":{"rank":-5,"name":"5 kyu","color":"yellow","score":494},"languages":{"python":{"rank":-5,"name":"5 kyu","color":"yellow","score":494},"javascript":{"rank":-7,"name":"7 kyu","color":"white","score":20}}},"codeChallenges":{"totalAuthored":2,"totalCompleted":136}}
+
+
 def get_datas(usernames):
     datas = []
     for user in usernames:
@@ -47,7 +50,7 @@ def change_names(username):
     elif username == "dalmacsernok":
         username = "Csernok Dama"
     elif username == "karcagiakos":
-        username = "Karcai Ákos"
+        username = "Karcagi Ákos"
     elif username == "bfiics":
         username = "Ficsór Bence"
     elif username == "Rausz":
