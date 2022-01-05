@@ -9,7 +9,7 @@ def clear(s):
     os.system("cls||clear")
 
 
-{"username":"dienesviktor","name":"Dienes Viktor","honor":684,"clan":"Codecool","leaderboardPosition":37155,"skills":["python","javascript"],"ranks":{"overall":{"rank":-5,"name":"5 kyu","color":"yellow","score":494},"languages":{"python":{"rank":-5,"name":"5 kyu","color":"yellow","score":494},"javascript":{"rank":-7,"name":"7 kyu","color":"white","score":20}}},"codeChallenges":{"totalAuthored":2,"totalCompleted":136}}
+# {"username":"dienesviktor","name":"Dienes Viktor","honor":684,"clan":"Codecool","leaderboardPosition":37155,"skills":["python","javascript"],"ranks":{"overall":{"rank":-5,"name":"5 kyu","color":"yellow","score":494},"languages":{"python":{"rank":-5,"name":"5 kyu","color":"yellow","score":494},"javascript":{"rank":-7,"name":"7 kyu","color":"white","score":20}}},"codeChallenges":{"totalAuthored":2,"totalCompleted":136}}
 
 
 def get_datas(usernames):
@@ -48,13 +48,15 @@ def change_names(username):
     elif username == "keczanilles":
         username = "Keczán Illés"
     elif username == "dalmacsernok":
-        username = "Csernok Dama"
+        username = "Csernok Dalma"
     elif username == "karcagiakos":
-        username = "Karcagi Ákos"
+        username = "Karcagi Ákos Csaba"
     elif username == "bfiics":
         username = "Ficsór Bence"
     elif username == "Rausz":
         username = "Rausz Ádám"
+    elif username == "inf-vendel":
+        username = "Bódi Vendel Róbert"
     return username
 
 
@@ -64,7 +66,7 @@ def print_actual_time():
 
 
 def main():
-    usernames = ["karcagiakos", "viktoriasoos", "dienesviktor", "dalmacsernok", "keczanilles", "DevonCarswell", "bfiics", "Rausz"]
+    usernames = ["karcagiakos", "viktoriasoos", "dienesviktor", "dalmacsernok", "keczanilles", "DevonCarswell", "bfiics", "Rausz", "inf-vendel"]
     datas = get_datas(usernames)
     clear(0)
     print_datas(datas)
